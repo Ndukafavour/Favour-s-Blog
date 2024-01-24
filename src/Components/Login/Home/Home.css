@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homepage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homewrap{
+    width: 35%;
+    height: 80%;
+    /* background-color: rgba(255, 0, 106, 0.61); */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.writeups{
+    display: flex;
+    flex-direction: column;
+}
+
+.writeup p{
+    font-size: 15px;
+    color: black;
+    font-style:oblique;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 70px;
+}
+
+.postdiv{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.postInput{
+    outline: none;
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    gap: 40px;
+ }
+
+.postImage{
+    width: 50%;
+    height: 40%;
+} 
+
+img{
+    width: 100%;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+button{
+    width: 20%;
+    height: 8%;
+    color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: blue;
+    color: black;
+}
+/* 
+.image{
+    width: 100%;
+    height: 40%;
+    background-color: blanchedalmond;
+    margin-top: 25px;
+} */
+/* 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icons{
+    width: 100%;
+    height: 6%;
+    background-color: aqua;
+} */
